@@ -1,0 +1,21 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.AspNetCore.Localization
+@model IndexModel
+
+@inject IStringLocalizer<IndexModel> Localizer
+@inject IHtmlLocalizer<IndexModel> HtmlLocalizer
+
+@{
+    ViewData["Title"] = "Home page";
+    var feature = HttpContext.Features.Get<IRequestCultureFeature>();
+    var Culture = feature.RequestCulture.UICulture;
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Localizer["Welcome"]</h1>
+    <p>
+        @HtmlLocalizer["Learn"]
+    </p>
+</div>

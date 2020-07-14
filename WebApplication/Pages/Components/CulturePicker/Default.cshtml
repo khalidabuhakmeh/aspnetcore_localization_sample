@@ -1,0 +1,25 @@
+@model WebApplication.ViewComponents.CulturePickerModel
+
+<div>
+    <form method="GET">
+        <div class="form-group">
+            <label class="sr-only" for="culture-picker">
+                Culture
+            </label>
+            <select
+                id="culture-picker"
+                class="form-control"
+                name="culture"
+                onchange="this.parentElement.parentElement.submit();">
+                @foreach (var culture in Model.SupportedCultures)
+                {
+                    <option
+                        value="@culture.Name"
+                        selected="@(Model.CurrentUICulture.Name == culture.Name)">
+                        <span>@Model.ToFlagEmoji(culture.Name)</span> @culture.DisplayName - @culture.NativeName
+                    </option>
+                }
+            </select>
+        </div>
+    </form>
+</div>
