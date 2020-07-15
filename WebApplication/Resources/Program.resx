@@ -24,4 +24,10 @@
     <data name="Privacy" xml:space="preserve">
         <value>Privacy</value>
     </data>
+    <data name="Privacy Policy" xml:space="preserve">
+        <value>Privacy Policy</value>
+    </data>
+    <data name="Privacy Policy Content" xml:space="preserve">
+        <value>This is a secret</value>
+    </data>
 </root>

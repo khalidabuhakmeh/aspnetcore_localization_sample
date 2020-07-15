@@ -56,5 +56,11 @@ namespace WebApplication.Resources.Pages {
                 return ResourceManager.GetString("Learn", resourceCulture);
             }
         }
+        
+        internal static string Home_page {
+            get {
+                return ResourceManager.GetString("Home page", resourceCulture);
+            }
+        }
     }
 }

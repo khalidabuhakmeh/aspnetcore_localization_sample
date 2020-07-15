@@ -56,5 +56,17 @@ namespace WebApplication.Resources {
                 return ResourceManager.GetString("Privacy", resourceCulture);
             }
         }
+        
+        internal static string Privacy_Policy {
+            get {
+                return ResourceManager.GetString("Privacy Policy", resourceCulture);
+            }
+        }
+        
+        internal static string Privacy_Policy_Content {
+            get {
+                return ResourceManager.GetString("Privacy Policy Content", resourceCulture);
+            }
+        }
     }
 }

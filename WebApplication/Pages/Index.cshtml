@@ -8,13 +8,11 @@
 @inject IHtmlLocalizer<IndexModel> HtmlLocalizer
 
 @{
-    ViewData["Title"] = "Home page";
-    var feature = HttpContext.Features.Get<IRequestCultureFeature>();
-    var Culture = feature.RequestCulture.UICulture;
+    ViewData["Title"] = @Localizer["Home page"];
 }
 
 <div class="text-center">
-    <h1 class="display-4">@Localizer["Welcome"]</h1>
+    <h1 class="display-4">@Localizer["Home Page"]</h1>
     <p>
         @HtmlLocalizer["Learn"]
     </p>

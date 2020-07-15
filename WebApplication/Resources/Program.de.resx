@@ -17,4 +17,10 @@
     <data name="Privacy" xml:space="preserve">
         <value>Privatsphäre</value>
     </data>
+    <data name="Privacy Policy" xml:space="preserve">
+        <value>Datenschutz-Bestimmungen</value>
+    </data>
+    <data name="Privacy Policy Content" xml:space="preserve">
+        <value>Das ist ein Geheimnis</value>
+    </data>
 </root>

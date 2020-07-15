@@ -24,4 +24,7 @@
     <data name="Learn" xml:space="preserve">
         <value>Learn about &lt;a href="https://docs.microsoft.com/aspnet/core"&gt;building Web apps with ASP.NET Core&lt;/a&gt;.</value>
     </data>
+    <data name="Home page" xml:space="preserve">
+        <value>Home page</value>
+    </data>
 </root>

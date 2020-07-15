@@ -17,4 +17,7 @@
     <data name="Learn" xml:space="preserve">
         <value>Erfahren Sie mehr über &lt;a href="https://docs.microsoft.com/aspnet/core"&gt; das Erstellen von Webanwendungen mit ASP.NET Core &lt;/a&gt;.</value>
     </data>
+    <data name="Home page" xml:space="preserve">
+        <value>Startseite</value>
+    </data>
 </root>

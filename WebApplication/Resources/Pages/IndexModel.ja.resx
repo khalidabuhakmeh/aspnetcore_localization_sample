@@ -17,4 +17,7 @@
     <data name="Learn" xml:space="preserve">
         <value>&lt;a href="https://docs.microsoft.com/aspnet/core"&gt; ASP.NET Coreを使用したWebアプリの構築&lt;/a&gt;について学習します</value>
     </data>
+    <data name="Home page" xml:space="preserve">
+        <value>ホームページ</value>
+    </data>
 </root>

@@ -17,4 +17,10 @@
     <data name="Privacy" xml:space="preserve">
         <value>プライバシー</value>
     </data>
+    <data name="Privacy Policy" xml:space="preserve">
+        <value>個人情報保護方針</value>
+    </data>
+    <data name="Privacy Policy Content" xml:space="preserve">
+        <value>これは秘密です</value>
+    </data>
 </root>
