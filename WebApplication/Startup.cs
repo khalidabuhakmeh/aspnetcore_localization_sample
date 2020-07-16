@@ -27,8 +27,7 @@ namespace WebApplication
         {
             services
                 .AddRazorPages()
-                .AddViewLocalization()
-                .AddDataAnnotationsLocalization();
+                .AddViewLocalization();
 
             services.AddLocalization(options =>
             {

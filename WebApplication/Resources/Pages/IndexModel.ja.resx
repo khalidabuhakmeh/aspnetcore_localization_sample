@@ -20,4 +20,13 @@
     <data name="Home page" xml:space="preserve">
         <value>ホームページ</value>
     </data>
+    <data name="Superhero" xml:space="preserve">
+        <value>スーパーヒーロー</value>
+    </data>
+    <data name="Submit" xml:space="preserve">
+        <value>申し出る</value>
+    </data>
+    <data name="The Superhero field is required." xml:space="preserve">
+        <value>スーパーヒーローフィールドは必須です。</value>
+    </data>
 </root>

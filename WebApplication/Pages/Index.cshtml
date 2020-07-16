@@ -17,3 +17,12 @@
         @HtmlLocalizer["Learn"]
     </p>
 </div>
+
+<form method="post" asp-page="Index">
+    <div class="form-group">
+        <label asp-for="Superhero" class="control-label"></label>
+        <input asp-for="Superhero" class="form-control"/>
+        <span asp-validation-for="Superhero" class="text-danger"></span>
+    </div>
+    <button type="submit">@Localizer["Submit"]</button>
+</form>

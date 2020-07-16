@@ -62,5 +62,23 @@ namespace WebApplication.Resources.Pages {
                 return ResourceManager.GetString("Home page", resourceCulture);
             }
         }
+        
+        internal static string Superhero {
+            get {
+                return ResourceManager.GetString("Superhero", resourceCulture);
+            }
+        }
+        
+        internal static string Submit {
+            get {
+                return ResourceManager.GetString("Submit", resourceCulture);
+            }
+        }
+        
+        internal static string The_Superhero_field_is_required_ {
+            get {
+                return ResourceManager.GetString("The Superhero field is required.", resourceCulture);
+            }
+        }
     }
 }

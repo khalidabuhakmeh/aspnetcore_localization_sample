@@ -20,4 +20,13 @@
     <data name="Home page" xml:space="preserve">
         <value>Startseite</value>
     </data>
+    <data name="Superhero" xml:space="preserve">
+        <value>Superheld</value>
+    </data>
+    <data name="Submit" xml:space="preserve">
+        <value>Einreichen</value>
+    </data>
+    <data name="The Superhero field is required." xml:space="preserve">
+        <value>Das Superheldenfeld ist erforderlich.</value>
+    </data>
 </root>
