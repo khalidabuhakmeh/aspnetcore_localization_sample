@@ -25,15 +25,11 @@ namespace WebApplication
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services
-                .AddRazorPages()
-                .AddViewLocalization();
-
             services.AddLocalization(options =>
             {
                 options.ResourcesPath = "Resources";
             });
-
+            
             services.Configure<RequestLocalizationOptions>(options =>
             {
                 options.SetDefaultCulture("en-Us");
@@ -44,6 +40,10 @@ namespace WebApplication
                     .RequestCultureProviders
                     .Remove(typeof(AcceptLanguageHeaderRequestCultureProvider));
             });
+            
+            services
+                .AddRazorPages()
+                .AddViewLocalization();
             
             services.AddScoped<RequestLocalizationCookiesMiddleware>();
         }

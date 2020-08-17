@@ -6,13 +6,16 @@
 
 @inject IStringLocalizer<IndexModel> Localizer
 @inject IHtmlLocalizer<IndexModel> HtmlLocalizer
+@* ViewLocalizer path is Resources.Pages.Index *@
+@inject IViewLocalizer ViewLocalizer
 
 @{
     ViewData["Title"] = @Localizer["Home page"];
+    
 }
 
 <div class="text-center">
-    <h1 class="display-4">@Localizer["Home Page"]</h1>
+    <h1 class="display-4">@Localizer["Home page"]</h1>
     <p>
         @HtmlLocalizer["Learn"]
     </p>
