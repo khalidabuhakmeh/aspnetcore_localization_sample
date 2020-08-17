@@ -1,4 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
     <resheader name="resmimetype">
         <value>text/microsoft-resx</value>
     </resheader>
@@ -12,21 +19,21 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
     <data name="Welcome" xml:space="preserve">
-        <value>Willkommen!</value>
+        <value>Welcome!</value>
     </data>
     <data name="Learn" xml:space="preserve">
-        <value>Erfahren Sie mehr über &lt;a href="https://docs.microsoft.com/aspnet/core"&gt; das Erstellen von Webanwendungen mit ASP.NET Core &lt;/a&gt;.</value>
+        <value>Learn about &lt;a href="https://docs.microsoft.com/aspnet/core"&gt;building Web apps with ASP.NET Core&lt;/a&gt;.</value>
     </data>
     <data name="Home page" xml:space="preserve">
-        <value>Startseite</value>
+        <value>Home page</value>
     </data>
     <data name="Superhero" xml:space="preserve">
-        <value>Superheld</value>
+        <value>Superhero</value>
     </data>
     <data name="Submit" xml:space="preserve">
-        <value>Einreichen</value>
+        <value>Submit</value>
     </data>
-    <data name="SuperHeroFieldIsRequired" xml:space="preserve">
-        <value>Das Superheldenfeld ist erforderlich.</value>
+    <data name="The Superhero field is required." xml:space="preserve">
+        <value>The Superhero field is required.</value>
     </data>
 </root>

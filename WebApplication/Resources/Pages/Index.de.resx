@@ -26,7 +26,7 @@
     <data name="Submit" xml:space="preserve">
         <value>Einreichen</value>
     </data>
-    <data name="SuperHeroFieldIsRequired" xml:space="preserve">
+    <data name="The Superhero field is required." xml:space="preserve">
         <value>Das Superheldenfeld ist erforderlich.</value>
     </data>
 </root>

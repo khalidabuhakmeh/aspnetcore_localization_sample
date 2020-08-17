@@ -6,25 +6,34 @@
 
     <ItemGroup>
       <EmbeddedResource Update="Resources\Pages\IndexModel.resx">
-        <Generator>ResXFileCodeGenerator</Generator>
+        <Generator>PublicResXFileCodeGenerator</Generator>
         <LastGenOutput>IndexModel.Designer.cs</LastGenOutput>
       </EmbeddedResource>
       <EmbeddedResource Update="Resources\Program.resx">
         <Generator>ResXFileCodeGenerator</Generator>
         <LastGenOutput>Program.Designer.cs</LastGenOutput>
       </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Pages\Index.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Index.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
     </ItemGroup>
 
     <ItemGroup>
-      <Compile Update="Resources\Pages\IndexModel.Designer.cs">
-        <DesignTime>True</DesignTime>
-        <AutoGen>True</AutoGen>
-        <DependentUpon>IndexModel.resx</DependentUpon>
-      </Compile>
       <Compile Update="Resources\Program.Designer.cs">
         <DesignTime>True</DesignTime>
         <AutoGen>True</AutoGen>
         <DependentUpon>Program.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Pages\IndexModel.Designer.cs">
+        <AutoGen>True</AutoGen>
+        <DependentUpon>IndexModel.resx</DependentUpon>
+        <DesignTime>True</DesignTime>
+      </Compile>
+      <Compile Update="Resources\Pages\Index.Designer.cs">
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Index.resx</DependentUpon>
+        <DesignTime>True</DesignTime>
       </Compile>
     </ItemGroup>
 

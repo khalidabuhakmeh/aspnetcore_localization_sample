@@ -18,8 +18,11 @@ namespace WebApplication.Pages
             _logger = logger;
         }
         
-        [Display(Name = "Superhero")]
-        [Required(ErrorMessage = "The Superhero field is required.")]
+        [Display(Name = "Superhero", ResourceType = typeof(Resources.Pages.IndexModel))]
+        [Required(
+            ErrorMessageResourceName = nameof(Resources.Pages.IndexModel.SuperHeroFieldIsRequired), 
+            ErrorMessageResourceType = typeof(Resources.Pages.IndexModel)
+        )]
         public string Superhero { get; set; }
 
         public void OnGet()

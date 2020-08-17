@@ -14,21 +14,21 @@ namespace WebApplication.Resources.Pages {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class IndexModel {
+    internal class Index {
         
         private static System.Resources.ResourceManager resourceMan;
         
         private static System.Globalization.CultureInfo resourceCulture;
         
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal IndexModel() {
+        internal Index() {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static System.Resources.ResourceManager ResourceManager {
+        internal static System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.Equals(null, resourceMan)) {
-                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("WebApplication.Resources.Pages.IndexModel", typeof(IndexModel).Assembly);
+                    System.Resources.ResourceManager temp = new System.Resources.ResourceManager("WebApplication.Resources.Pages.Index", typeof(Index).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -36,7 +36,7 @@ namespace WebApplication.Resources.Pages {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static System.Globalization.CultureInfo Culture {
+        internal static System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -45,39 +45,39 @@ namespace WebApplication.Resources.Pages {
             }
         }
         
-        public static string Welcome {
+        internal static string Welcome {
             get {
                 return ResourceManager.GetString("Welcome", resourceCulture);
             }
         }
         
-        public static string Learn {
+        internal static string Learn {
             get {
                 return ResourceManager.GetString("Learn", resourceCulture);
             }
         }
         
-        public static string Home_page {
+        internal static string Home_page {
             get {
                 return ResourceManager.GetString("Home page", resourceCulture);
             }
         }
         
-        public static string Superhero {
+        internal static string Superhero {
             get {
                 return ResourceManager.GetString("Superhero", resourceCulture);
             }
         }
         
-        public static string Submit {
+        internal static string Submit {
             get {
                 return ResourceManager.GetString("Submit", resourceCulture);
             }
         }
         
-        public static string SuperHeroFieldIsRequired {
+        internal static string The_Superhero_field_is_required_ {
             get {
-                return ResourceManager.GetString("SuperHeroFieldIsRequired", resourceCulture);
+                return ResourceManager.GetString("The Superhero field is required.", resourceCulture);
             }
         }
     }

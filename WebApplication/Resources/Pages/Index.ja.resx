@@ -12,21 +12,21 @@
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
     <data name="Welcome" xml:space="preserve">
-        <value>Willkommen!</value>
+        <value>ようこそ!</value>
     </data>
     <data name="Learn" xml:space="preserve">
-        <value>Erfahren Sie mehr über &lt;a href="https://docs.microsoft.com/aspnet/core"&gt; das Erstellen von Webanwendungen mit ASP.NET Core &lt;/a&gt;.</value>
+        <value>&lt;a href="https://docs.microsoft.com/aspnet/core"&gt; ASP.NET Coreを使用したWebアプリの構築&lt;/a&gt;について学習します</value>
     </data>
     <data name="Home page" xml:space="preserve">
-        <value>Startseite</value>
+        <value>ホームページ</value>
     </data>
     <data name="Superhero" xml:space="preserve">
-        <value>Superheld</value>
+        <value>スーパーヒーロー</value>
     </data>
     <data name="Submit" xml:space="preserve">
-        <value>Einreichen</value>
+        <value>申し出る</value>
     </data>
-    <data name="SuperHeroFieldIsRequired" xml:space="preserve">
-        <value>Das Superheldenfeld ist erforderlich.</value>
+    <data name="The Superhero field is required." xml:space="preserve">
+        <value>スーパーヒーローフィールドは必須です。</value>
     </data>
 </root>

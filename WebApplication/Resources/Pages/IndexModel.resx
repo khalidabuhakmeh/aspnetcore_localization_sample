@@ -33,7 +33,7 @@
     <data name="Submit" xml:space="preserve">
         <value>Submit</value>
     </data>
-    <data name="The Superhero field is required." xml:space="preserve">
+    <data name="SuperHeroFieldIsRequired" xml:space="preserve">
         <value>The Superhero field is required.</value>
     </data>
 </root>
